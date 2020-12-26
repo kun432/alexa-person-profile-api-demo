@@ -1,0 +1,69 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "音声プロフィールのデモ",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ProfileGivenNameIntent",
+                    "slots": [],
+                    "samples": [
+                        "名前を教えて",
+                        "名前",
+                        "私の名前は",
+                        "私の名前を教えて"
+                    ]
+                },
+                {
+                    "name": "ProfileFullNameIntent",
+                    "slots": [],
+                    "samples": [
+                        "フルネームを教えて",
+                        "フルネーム",
+                        "私のフルネームを教えて",
+                        "私のフルネームは"
+                    ]
+                },
+                {
+                    "name": "ProfileNumberIntent",
+                    "slots": [],
+                    "samples": [
+                        "携帯番号を教えて",
+                        "電話番号を教えて",
+                        "携帯番号",
+                        "電話番号",
+                        "私の電話番号を教えて",
+                        "私の電話番号は",
+                        "私の携帯番号を教えて",
+                        "私の携帯番号は"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    },
+    "version": "1"
+}
