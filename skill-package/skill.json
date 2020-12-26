@@ -1,5 +1,8 @@
 {
   "manifest": {
+    "apis": {
+      "custom": {}
+    },
     "permissions": [
       {
         "name": "alexa::profile:name:read"
@@ -11,9 +14,21 @@
         "name": "alexa::person_id:read"
       }
     ],
+    "privacyAndCompliance": {
+      "locales": {
+        "ja-JP": {}
+      }
+    },
     "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
       "locales": {
         "ja-JP": {
+	  "examplePhrases": [],
+          "keywords": [],
           "name": "音声プロフィールのデモ"
         }
       }
