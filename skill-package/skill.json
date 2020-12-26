@@ -1,7 +1,9 @@
 {
   "manifest": {
     "apis": {
-      "custom": {}
+      "custom": {
+        "interfaces": []
+      }
     },
     "permissions": [
       {
